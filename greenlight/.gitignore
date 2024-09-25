@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+pkg/
+out/
+build/
+dist/
+
+# Output of `go coverage`
+coverage.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Logs
+*.log
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Go module files (optional, if you don't want to track them)
+# Uncomment if you don't want these in the repository.
+# go.sum
