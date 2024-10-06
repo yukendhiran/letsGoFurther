@@ -1,3 +1,6 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { HealthCheckComponent } from './health-check/health-check.component';
+export const routes: Routes = [
+  { path: 'health-check', component: HealthCheckComponent },
+];

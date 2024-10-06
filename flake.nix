@@ -18,6 +18,15 @@
             nodePackages."@angular/cli"
             go
           ];
+
+         shellHook = ''
+          echo "Node.js version: ${pkgs.nodejs.version}"
+          echo "Angular CLI version: ${pkgs.nodePackages."@angular/cli".version}"
+          echo "Go version: ${pkgs.go.version}"
+       
+        '';
         };
+
+       
     });
 }
