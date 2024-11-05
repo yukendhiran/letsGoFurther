@@ -57,7 +57,7 @@ func (f Filters) offset() int {
 
 func calculateMetadata(totalRecords, page, pageSize int) Metadata {
 	if totalRecords == 0 {
-		
+
 		return Metadata{}
 	}
 	return Metadata{

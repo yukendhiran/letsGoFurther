@@ -34,3 +34,5 @@ vendor/
 # Go module files (optional, if you don't want to track them)
 # Uncomment if you don't want these in the repository.
 # go.sum
+.envrc
+bin/
