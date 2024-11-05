@@ -18,6 +18,8 @@
             nodePackages."@angular/cli"
             go
             go-migrate
+            gnumake
+            go-tools
           ];
 
          shellHook = ''
@@ -35,6 +37,7 @@
           export GREENLIGHT_DB_DSN='postgres://greenlight:pa55word@localhost/greenlight?sslmode=disable'
           echo "DB DNS String: $GREENLIGHT_DB_DSN"
           echo "=================================================="
+          echo ' psql $GREENLIGHT_DB_DSN ' to enter db
 
         '';
         };
